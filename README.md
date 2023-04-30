@@ -74,7 +74,7 @@ I'm unsure if these instruments would be usable with N-SPC data uploaded via VRA
 
 ## Samples `000h` to `03Eh`
 
-If for any reason Hexadecimal IDs for source data are required, I recommend referencing the [<Game Boy Programming Manual (Version 1.1), Chapter 7: Super Game Boy Sound (Pages 209 - 211)](https://archive.org/details/GameBoyProgManVer1.1/page/n208/mode/1up). However, these are also included in the sample names themselves.
+If for any reason Hexadecimal IDs for source data are required, I recommend referencing the [Game Boy Programming Manual (Version 1.1), Chapter 7: Super Game Boy Sound (Pages 209 - 211)](https://archive.org/details/GameBoyProgManVer1.1/page/n208/mode/1up). However, these are also included in the sample names themselves.
 
             Source Data
                 vv
