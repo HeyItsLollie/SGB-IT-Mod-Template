@@ -89,11 +89,11 @@ If for any reason Hexadecimal IDs for source data are required, I recommend refe
 
 	2023-04-30  v0.0.1
 	Initial version compiled by Lollie (lollie.me)
-	- All samples present
-	- All instruments present
+	- All samples present, with loop points intact
+	- All instruments present, with placeholder envelopes
 	- TODO: Envelopes not yet implemented, unable to test SGB hardware
 	- TODO: Tuning for all instruments likely do not match SGB hardware
-	- TODO: Convert .IT to N-SPC and transfer to SGB *without* samples
+	- TODO: Convert .IT to N-SPC, and transfer to SGB *without* samples
 
 ---
 
