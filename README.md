@@ -76,11 +76,12 @@ I'm unsure if these instruments would be usable with N-SPC data uploaded via VRA
 
 If for any reason Hexadecimal IDs for source data are required, I recommend referencing the [Game Boy Programming Manual (Version 1.1), Chapter 7: Super Game Boy Sound (Pages 209 - 211)](https://archive.org/details/GameBoyProgManVer1.1/page/n208/mode/1up). However, these are also included in the sample names themselves.
 
-            Source Data
-                vv
-    "SGB - S00 000h - LOOP Sine"
-    "SGB - S12 00Ch - LOOP Bass 2"
-    "SGB - S23 017h - LOOP Electric Keyboard 1d"
+      Source Data
+	  Hexadecimal
+          vv
+    "S00 000h - LOOP Sine"
+    "S12 00Ch - LOOP Bass 2"
+    "S23 017h - LOOP Electric Keyboard 1d"
 
 ---
 
@@ -96,11 +97,22 @@ If for any reason Hexadecimal IDs for source data are required, I recommend refe
 
 ---
 
-## Links
+## Useful Links
+Game Boy Programming Manual (Version 1.1)<br>Chapter 7: Super Game Boy Sound (Pages 209 - 211)<br>
+[https://archive.org/details/GameBoyProgManVer1.1/page/n208/mode/1up)](https://archive.org/details/GameBoyProgManVer1.1/page/n208/mode/1up)
 
 Samples extracted from .SPC rips for Super Game Boy using SPLIT700.<br>
 .SPC Source: [https://www.zophar.net/music/nintendo-snes-spc/super-gameboy-2](https://www.zophar.net/music/nintendo-snes-spc/super-gameboy-2)<br>
 SPLIT700: [https://github.com/gocha/split700](https://github.com/gocha/split700)
 
-Compiled with hopes of targeting mITroid for conversion to N-SPC data.<br>
+Template made with hopes of targeting mITroid for conversion to N-SPC data.<br>
 mITroid: [https://github.com/tewtal/mITroid](https://github.com/tewtal/mITroid)
+
+GBDev's Pan Docs - SGB Functions<br>
+[https://gbdev.io/pandocs/SGB_Functions.html](https://gbdev.io/pandocs/SGB_Functions.html)
+
+Quartet Cracktro<br>
+[https://eldred.fr/quartet](https://eldred.fr/quartet)
+
+Code to transfer N-SPC data to SGB (Lines 6 to 15)<br>
+[https://github.com/AYCEdemo/quartet-intro/blob/c90fdf9534be5bd1c705db1d06761509ed5b3356/src/res/sou_trn.asm#L6-L15](https://github.com/AYCEdemo/quartet-intro/blob/c90fdf9534be5bd1c705db1d06761509ed5b3356/src/res/sou_trn.asm#L6-L15) 
