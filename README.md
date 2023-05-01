@@ -87,7 +87,7 @@ If for any reason Hexadecimal IDs for source data are required, I recommend refe
 
 ## Changelog
 
-	2023-04-30  v0.01
+	2023-04-30  v0.0.1
 	Initial version compiled by Lollie (lollie.me)
 	- All samples present
 	- All instruments present
