@@ -36,7 +36,7 @@ Naming convention is as follows:
 | "**SINE**"<br>"**BRASS 1**" | Sound Family |
 | "**Normal Env**"<br><br>"**Brass 1**" | Envelope Type<br>OR<br>Specific Sound |
 
-###"Envelope Type OR Specific Sound"? Why both?
+### "Envelope Type OR Specific Sound"? Why both?
 This field description came straight from the programming manual, adding an unavoidable complication to the naming scheme. I've done my best to mitigate confusion.
 
 The manual features a number of envelopes that appear to be reused over multiple instruments. I've made sure every instrument with a shared Envelope Type is given the suffix "Env". These are:
